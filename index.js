@@ -34,7 +34,7 @@ function viewCart() {
         cart_str += ', ';
       }
     }
-    return cart_str;
+    return cart_str + '.';
   }
 }
 
