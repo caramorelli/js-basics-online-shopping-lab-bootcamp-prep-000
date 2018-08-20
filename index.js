@@ -25,8 +25,8 @@ function viewCart() {
   else {
     var cart_str = ''
     for (var cart.length; i++) {
-      var obj = cart[i]
-      'In your cart, you have' +  at $58
+      var obj = cart[i];
+      'In your cart, you have' + obj[itemPrice] at $58
     }
   }
 }
