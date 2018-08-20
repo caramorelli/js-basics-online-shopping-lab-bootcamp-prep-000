@@ -27,7 +27,7 @@ function viewCart() {
     for (var i = 0; i < cart.length; i++) {
       var obj = cart[i];
       if ((i === cart.length - 1) && cart.length > 1) {
-        cart_str += ' and '
+        cart_str += 'and '
       }
       cart_str += (obj.itemName + ' at $' + obj.itemPrice);
       if ((cart.length > 1) && (i !== cart.length - 1)) {
