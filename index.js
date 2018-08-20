@@ -63,7 +63,7 @@ function placeOrder(cardNumber) {
   // write your code here
   if (cardNumber !== undefined) {
     var total_amount = total();
-    cart = []
+    cart = [];
     return 'Your total cost is $' + total_amount + ', which will be charged to the card ' + cardNumber + '.';
   }
   else {
