@@ -23,7 +23,9 @@ function viewCart() {
     return 'Your shopping cart is empty.';
   }
   else {
-    
+    for (var cart.length; i++) {
+      
+    }
   }
 }
 
