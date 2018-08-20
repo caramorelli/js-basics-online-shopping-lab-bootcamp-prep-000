@@ -62,6 +62,6 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
   if (cardNumber > 0) {
-    
+    return 'Your total cost is $' + + ', which will be charged to the card 62339118.'
   }
 }
