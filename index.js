@@ -29,7 +29,7 @@ function viewCart() {
       if ((i === cart.length - 1) && cart.length > 1) {
         cart_str += ' and '
       }
-      cart_str += 'In your cart, you have ' + obj[itemName] + ' at $' obj[itemPrice]
+      cart_str += ('In your cart, you have ' + obj[itemName] + ' at $' obj[itemPrice])
       if ((cart.length > 1) && (i !== cart.length - 1)) {
         cart_str += ', ';
       }
