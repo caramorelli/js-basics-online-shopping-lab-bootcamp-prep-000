@@ -55,6 +55,7 @@ function removeFromCart(item) {
     if (item === obj.itemName) {
       return cart.splice()
     }
+    else if (i === cart.length - 1)
   }
 }
 
