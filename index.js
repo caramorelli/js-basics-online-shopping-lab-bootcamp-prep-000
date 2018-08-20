@@ -45,14 +45,14 @@ function total() {
     var obj = cart[i];
     total_amount += obj[itemPrice];
   }
-  return total_amount
+  return total_amount;
 }
 
 function removeFromCart(item) {
   // write your code here
-  if (!cart.include(item)) {
-    return 'That item is not in your cart.';
-  }
+  // if (!cart.include(item)) {
+  //   return 'That item is not in your cart.';
+  // }
 }
 
 function placeOrder(cardNumber) {
