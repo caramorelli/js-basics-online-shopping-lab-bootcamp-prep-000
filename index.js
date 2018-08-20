@@ -30,7 +30,7 @@ function viewCart() {
       if ((cart.length > 1) && (i !== cart.length - 1)) {
         cart_str += ', ';
       }
-      if 
+      if (i === cart.length - 1)
     }
   }
 }
