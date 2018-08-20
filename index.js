@@ -29,6 +29,9 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
+  if (!cart.include?(item)) {
+    return 'That item is not in your cart'
+  }
 }
 
 function placeOrder(cardNumber) {
