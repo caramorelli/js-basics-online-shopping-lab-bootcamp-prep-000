@@ -26,7 +26,7 @@ function viewCart() {
     var cart_str = ''
     for (var cart.length; i++) {
       var obj = cart[i];
-      if (i === cart.length - 1) {
+      if ((i === cart.length - 1)) {
         
       }
       cart_str += 'In your cart, you have ' + obj[itemName] + ' at $' obj[itemPrice];
