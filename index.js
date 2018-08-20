@@ -24,7 +24,7 @@ function viewCart() {
   }
   else {
     var cart_str = ''
-    for (var i = 0; cart.length; i++) {
+    for (var i = 0; i < cart.length; i++) {
       var obj = cart[i];
       if ((i === cart.length - 1) && cart.length > 1) {
         cart_str += ' and '
