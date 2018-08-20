@@ -43,6 +43,7 @@ function total() {
   var total_amount = 0;
   for (var i = 0; i < cart.length; i++) {
     var obj = cart[i];
+    total_amount += obj[itemPrice]
   }
 }
 
